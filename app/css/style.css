@@ -1,0 +1,27 @@
+div {
+    background-color: lightblue;
+    margin: 40px;
+    padding: 20px;
+    border: 20px solid lightgray;
+}
+
+div>div {
+    background-color: green;
+    height: 40px;
+    width: 60px;
+
+    transition-property: transform;
+    transition-duration: 200ms;
+
+    display: inline-block;
+
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+div>div:hover {
+    transform: rotateY(180deg);
+}

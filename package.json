@@ -1,0 +1,12 @@
+{
+  "name": "kitchen-baker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/js/app.js",
+  "scripts": {
+    "test": "kmake",
+    "start": "node dev/js/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
