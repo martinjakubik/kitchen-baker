@@ -8,5 +8,6 @@
     "start": "node dev/js/server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
