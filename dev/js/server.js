@@ -1,6 +1,9 @@
 import http from 'http';
 import fs from 'fs';
+import url from 'url';
+import path from 'path';
 
+let sBaseDirectory = '.';
 let nPort = 2701;
 
 let getContentType = function (sPath) {
@@ -13,6 +16,7 @@ let getContentType = function (sPath) {
         sContentType = 'text/html';
     } else if (sPath.includes('.js')) {
         sContentType = 'application/javascript';
+    }
 
     return sContentType;
 
